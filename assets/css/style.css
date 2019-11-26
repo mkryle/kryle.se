@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One&display=swap');
+
+html {
+    text-align: center;
+    z-index: 1;
+    margin: -10px;
+    font-family: 'Helvetica', Neue;
+}
+
+body {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:link {
+    color: white;
+}
+
+.bgwhite a:visited {
+    color: black;
+}
+
+.bgwhite a:active {
+    color: black;
+}
+
+.bgwhite a:hover {
+    color: gray;
+}
+
+.bgwhite a:link {
+    color: black;
+}
+
+.mgatop {
+    margin-top: 100px;
+}
+
+.mc {
+    color: #00FFE8;
+}
+
+.shadow {
+    text-shadow: 1px 1px #000;
+}
+
+.bgblack {
+    color: #fff;
+    background-color: #000;
+}
+
+.cta {
+    padding: 50px;
+}
+
+.inline p {
+    display: inline;
+}
+
+.topcontainer {
+    color: #fff;
+    display: flex;
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+}
+
+
+#logo {
+    color: #00FFE8;
+    flex: 50%;
+    padding: 15px;
+    text-align: left;
+    font: 50px 'Faster One', cursive;
+}
+
+#nav {
+    text-align: right;
+    padding: 30px;
+    flex: 50%;
+}
+
+#nav img {
+    width: 30px;
+    padding-left: 30px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#meinfo {
+    flex: 50%;
+    padding: 15px;
+    text-align: center;
+    padding: 50px;
+    max-width: 50%;
+}
+
+#mepic {
+    text-align: center;
+    padding: 15px;
+    flex: 50%;
+}
+
+
+#mepic img {
+    padding: 40px;
+    width: 400px;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.skills img {
+    width: 200px;
+}
+
+.chess-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chess-box {
+    width: 800px;
+}
+
+.chess-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chess {
+    flex: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chess img {
+    width: 80px;
+}
+
+.skill h1 {
+    font-size: 20px;
+}
+
+.footer {
+    color: #fff;
+    display: flex;
+    background-color: #000;
+}
+
+#end {
+    color: #00FFE8;
+    flex: 50%;
+    padding: 15px;
+    text-align: right;
+    font: 50px 'Faster One', cursive;
+}
+
+#totop {
+    text-align: center;
+    padding: 30px;
+    flex: 50%;
+}
+
+@media (max-width: 768px) {
+    .topcontainer {
+        display: flex;
+        background-color: #000;
+
+    }
+
+
+    .container {
+        display: unset;
+    }
+
+    .cta {
+        padding: 5px;
+    }
+
+    #logo {
+        background-color: #000;
+        flex: 50%;
+        padding: 5px;
+        text-align: left;
+        font: 30px 'Faster One', cursive;
+    }
+
+    #nav {
+        text-align: right;
+        padding: 15px;
+        flex: 50%;
+    }
+
+    .container {
+        width: 100%;
+        display: block;
+        align-items: unset;
+        justify-content: unset;
+    }
+
+    #meinfo {
+        flex: unset;
+        padding: 5px;
+        text-align: center;
+        padding: 5px;
+        max-width: unset;
+    }
+
+    #mepic {
+        text-align: center;
+        padding: 5px;
+        flex: unset;
+    }
+
+
+    #mepic img {
+        padding: 4px;
+        width: 100%;
+    }
+
+    .skills {
+        width: 100%;
+        display: unset;
+        justify-content: unset;
+        padding: 3px;
+    }
+
+    .skill {
+        width: 100%;
+    }
+
+    .skills img {
+        width: 200px;
+    }
+
+    .chess-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -0px;
+    }
+
+    .chess-box {
+        width: 100%;
+    }
+
+    .chess-row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chess {
+        flex: 50%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .chess img {
+        width: 80px;
+    }
+
+    .skill h1 {
+        font-size: 20px;
+    }
+
+    .footer {
+        margin-top: -15px;
+        color: #fff;
+        display: flex;
+        background-color: #000;
+    }
+
+    #end {
+        color: #00FFE8;
+        flex: 50%;
+        padding: 15px;
+        text-align: right;
+        font: 30px 'Faster One', cursive;
+    }
+
+    #totop {
+        text-align: center;
+        padding: 20px;
+        flex: 50%;
+    }
+}
